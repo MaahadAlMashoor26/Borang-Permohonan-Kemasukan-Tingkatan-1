@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borang Permohonan Kemasukan Tingkatan 1 2027 - Maahad Al Mashoor Al Islami</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter & Amiri for Islamic Elegance -->
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emerald: {
+                            850: '#064e3b',
+                            900: '#022c22',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#d97706',
+                            600: '#b45309',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        arabic: ['Amiri', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .bg-islamic-pattern {
+            background-color: #022c22;
+            background-image: radial-gradient(#d97706 0.75px, transparent 0.75px), radial-gradient(#d97706 0.75px, #022c22 0.75px);
+            background-size: 30px 30px;
+            background-position: 0 0, 15px 15px;
+            background-opacity: 0.1;
+        }
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            .print-only {
+                display: block !important;
+            }
+            body {
+                background: white !important;
+                color: black !important;
+            }
+            .print-shadow-none {
+                box-shadow: none !important;
+                border: 1px solid #ccc !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- Header / Hero Section -->
+    <header class="bg-emerald-900 text-white relative overflow-hidden border-b-4 border-gold-500 shadow-lg no-print">
+        <div class="absolute inset-0 opacity-10 bg-islamic-pattern"></div>
+        <div class="max-w-5xl mx-auto px-4 py-8 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-block p-3 bg-white/10 rounded-full mb-3 backdrop-blur-sm border border-gold-400/30">
+                <i data-lucide="graduation-cap" class="w-10 h-10 text-gold-400"></i>
+            </div>
+            <h2 class="font-arabic text-2xl sm:text-3xl text-gold-400 mb-1">معهد المشهور الإسلامي</h2>
+            <h1 class="text-2xl sm:text-4xl font-bold tracking-tight text-white mb-2">MAAHAD AL MASHOOR AL ISLAMI</h1>
+            <p class="text-emerald-200 text-sm sm:text-base max-w-2xl mx-auto font-medium">
+                PERMOHONAN KEMASUKAN PELAJAR TINGKATAN 1 TAHUN 2027
+            </p>
+            <div class="mt-4 inline-flex items-center gap-2 bg-emerald-800/80 px-4 py-1.5 rounded-full text-xs sm:text-sm text-gold-300 border border-gold-500/30">
+                <i data-lucide="calendar" class="w-4 h-4"></i>
+                <span>Tarikh Tutup Permohonan: <strong>6 November</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex-grow">
+
+        <!-- Guidelines & Info Section (Hidden on Print view unless in receipt state) -->
+        <div id="infoSection" class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8 no-print">
+            
+            <!-- Syarat Kemasukan Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-4 pb-3 border-b border-slate-100">
+                    <div class="p-2.5 bg-emerald-100 text-emerald-800 rounded-xl">
+                        <i data-lucide="check-circle-2" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-emerald-900">Syarat Kemasukan</h3>
+                        <p class="text-xs text-slate-500">Kelayakan permohonan calon</p>
+                    </div>
+                </div>
+                <ul class="space-y-3 text-sm text-slate-700">
+                    <li class="flex items-start gap-2.5">
+                        <i data-lucide="check" class="w-4 h-4 text-emerald-600 mt-1 shrink-0"></i>
+                        <span>Lulus <strong>Ujian Kemasukan</strong> yang dikendalikan oleh pihak sekolah.</span>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i data-lucide="check" class="w-4 h-4 text-emerald-600 mt-1 shrink-0"></i>
+                        <div>
+                            <span>Pelajar akan dinilai secara khas:</span>
+                            <div class="mt-1.5 pl-2 border-l-2 border-emerald-200 space-y-1 text-xs">
+                                <p>• <strong>Ujian Bertulis:</strong> Bahasa Arab, Bahasa Inggeris, Matematik, & Jawi.</p>
+                                <p>• <strong>Ujian Lisan:</strong> Bacaan Al-Quran & Hafazan (Surah Ad-Dhuha hingga An-Nas).</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <i data-lucide="check" class="w-4 h-4 text-emerald-600 mt-1 shrink-0"></i>
+                        <span>Warganegara Malaysia lahir pada tahun <strong>2014 sahaja</strong> layak memohon.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Panduan Permohonan Card -->
+            <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition">
+                <div class="flex items-center gap-3 mb-4 pb-3 border-b border-slate-100">
+                    <div class="p-2.5 bg-amber-100 text-amber-800 rounded-xl">
+                        <i data-lucide="file-text" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-emerald-900">Panduan Permohonan</h3>
+                        <p class="text-xs text-slate-500">Langkah & Maklumat Penting</p>
+                    </div>
+                </div>
+                <ul class="space-y-2.5 text-sm text-slate-700">
+                    <li class="flex items-start gap-2">
+                        <span class="w-5 h-5 bg-amber-100 text-amber-900 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</span>
+                        <span>Isi borang permohonan dalam talian ini dengan lengkap.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="w-5 h-5 bg-amber-100 text-amber-900 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</span>
+                        <span>Muat turun & cetak resit perakuan selepas berjaya menghantar borang.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="w-5 h-5 bg-amber-100 text-amber-900 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">3</span>
+                        <span>Waris <strong>WAJIB menyertai Group WhatsApp</strong> untuk maklumat temuduga.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="w-5 h-5 bg-amber-100 text-amber-900 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">4</span>
+                        <span>Tarikh Temuduga: <strong class="text-emerald-800">14 November 2026 (Sabtu)</strong>.</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="w-5 h-5 bg-amber-100 text-amber-900 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">5</span>
+                        <span>Bayaran Wang Proses <strong>RM10.00</strong> dikutip semasa pendaftaran ujian/temuduga.</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Form Container -->
+        <div id="formCard" class="bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden no-print">
+            <div class="bg-gradient-to-r from-emerald-900 to-emerald-800 px-6 py-4 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <i data-lucide="edit-3" class="w-5 h-5 text-gold-400"></i>
+                    <h3 class="font-semibold text-lg">Maklumat Pemohon & Waris</h3>
+                </div>
+                <span class="text-xs bg-emerald-950/60 px-3 py-1 rounded-full text-emerald-200 border border-emerald-700">Langkah 1 daripada 1</span>
+            </div>
+
+            <form id="applicationForm" class="p-6 sm:p-8 space-y-6" onsubmit="handleFormSubmit(event)">
+                
+                <!-- Alert Box for Errors -->
+                <div id="errorAlert" class="hidden bg-rose-50 border border-rose-200 text-rose-800 px-4 py-3 rounded-xl text-sm flex items-start gap-3">
+                    <i data-lucide="alert-circle" class="w-5 h-5 text-rose-600 shrink-0 mt-0.5"></i>
+                    <div id="errorMessage">Sila betulkan ralat dalam borang.</div>
+                </div>
+
+                <!-- Maklumat Pelajar Section -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-800 mb-4 pb-1 border-b border-emerald-100 flex items-center gap-2">
+                        <i data-lucide="user" class="w-4 h-4"></i> Maklumat Pelajar
+                    </h4>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <!-- Nama Pelajar -->
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Nama Pelajar (Seperti Dalam MyKAD) <span class="text-rose-500">*</span></label>
+                            <input type="text" id="namaPelajar" required placeholder="Contoh: MUHAMMAD AMIR BIN AHMAD" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition uppercase">
+                        </div>
+
+                        <!-- Jantina -->
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Jantina <span class="text-rose-500">*</span></label>
+                            <select id="jantina" required class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition bg-white">
+                                <option value="">-- Sila Pilih Jantina --</option>
+                                <option value="LELAKI">LELAKI</option>
+                                <option value="PEREMPUAN">PEREMPUAN</option>
+                            </select>
+                        </div>
+
+                        <!-- No Kad Pengenalan -->
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">
+                                No. Kad Pengenalan Pelajar <span class="text-rose-500">*</span>
+                            </label>
+                            <input type="text" id="noIc" required maxlength="14" placeholder="Contoh: 140512075543" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition" oninput="validateIcYear(this)">
+                            <p class="text-xs text-slate-500 mt-1">Calon mesti lahir pada tahun <strong>2014</strong> (Contoh No IC bermula 14xxxx-xx-xxxx).</p>
+                            <p id="icError" class="text-xs text-rose-600 mt-1 hidden font-medium"></p>
+                        </div>
+
+                        <!-- Sekolah Terkini -->
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Sekolah Terkini (Sekolah Rendah) <span class="text-rose-500">*</span></label>
+                            <input type="text" id="sekolahTerkini" required placeholder="Contoh: SK BAYAN LEPAS" class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition uppercase">
+                        </div>
+
+                        <!-- Alamat Terkini -->
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Alamat Terkini <span class="text-rose-500">*</span></label>
+                            <textarea id="alamatTerkini" required rows="3" placeholder="Masukkan alamat kediaman lengkap..." class="w-full px-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition uppercase"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maklumat Ibu Bapa / Waris -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-800 mb-4 pb-1 border-b border-emerald-100 flex items-center gap-2">
+                        <i data-lucide="users" class="w-4 h-4"></i> Maklumat Perhubungan Waris
+                    </h4>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                        <!-- No Phone Bapa -->
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">No. Telefon Bapa <span class="text-rose-500">*</span></label>
+                            <div class="relative">
+                                <i data-lucide="phone" class="w-4 h-4 absolute left-3 top-3 text-slate-400"></i>
+                                <input type="tel" id="noTelBapa" required placeholder="0123456789" class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition">
+                            </div>
+                        </div>
+
+                        <!-- No Phone Ibu -->
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">No. Telefon Ibu <span class="text-rose-500">*</span></label>
+                            <div class="relative">
+                                <i data-lucide="phone" class="w-4 h-4 absolute left-3 top-3 text-slate-400"></i>
+                                <input type="tel" id="noTelIbu" required placeholder="0198765432" class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-slate-300 focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600 text-sm transition">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Muat Naik Fail & Group WhatsApp -->
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-800 mb-4 pb-1 border-b border-emerald-100 flex items-center gap-2">
+                        <i data-lucide="paperclip" class="w-4 h-4"></i> Dokumen & Saluran Komunikasi
+                    </h4>
+
+                    <div class="space-y-4">
+                        <!-- File Upload PBD -->
+                        <div>
+                            <label class="block text-sm font-medium text-slate-700 mb-1">Muat Naik Keputusan PBD (PDF/JPG/PNG) <span class="text-rose-500">*</span></label>
+                            <div class="border-2 border-dashed border-slate-300 rounded-xl p-4 text-center hover:bg-slate-50 transition cursor-pointer relative" id="dropzone" onclick="document.getElementById('pbdFile').click()">
+                                <input type="file" id="pbdFile" accept=".pdf,.jpg,.jpeg,.png" required class="hidden" onchange="handleFileSelect(this)">
+                                <div id="uploadContent">
+                                    <i data-lucide="upload-cloud" class="w-8 h-8 mx-auto text-slate-400 mb-1"></i>
+                                    <p class="text-xs font-medium text-slate-700">Klik untuk pilih fail Keputusan PBD</p>
+                                    <p class="text-[11px] text-slate-400">Format disokong: PDF, JPG, PNG (Maks 5MB)</p>
+                                </div>
+                                <div id="fileSelectedInfo" class="hidden text-emerald-700 flex items-center justify-center gap-2">
+                                    <i data-lucide="file-check" class="w-5 h-5"></i>
+                                    <span id="fileName" class="text-sm font-semibold"></span>
+                                    <button type="button" onclick="event.stopPropagation(); removeFile();" class="text-rose-500 hover:text-rose-700 ml-2">
+                                        <i data-lucide="x" class="w-4 h-4"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp Notice Box -->
+                        <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                            <div class="flex items-start gap-3">
+                                <div class="p-2 bg-emerald-600 text-white rounded-lg shrink-0">
+                                    <i data-lucide="message-square" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-bold text-emerald-900">Kumpulan WhatsApp Rasmi Temuduga</h5>
+                                    <p class="text-xs text-emerald-700 mt-0.5">Waris WAJIB menyertai kumpulan WhatsApp ini untuk maklumat susulan temuduga pada 14 Nov 2026.</p>
+                                </div>
+                            </div>
+                            <a href="https://chat.whatsapp.com/HFMkSpvFq8g2rPEO6XzLwT" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition shrink-0 shadow-sm">
+                                <i data-lucide="external-link" class="w-4 h-4"></i>
+                                Sertai Group WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Perakuan Checkbox -->
+                <div class="pt-4 border-t border-slate-200">
+                    <label class="flex items-start gap-3 cursor-pointer">
+                        <input type="checkbox" id="perakuan" required class="mt-1 w-4 h-4 text-emerald-600 rounded border-slate-300 focus:ring-emerald-500">
+                        <span class="text-xs text-slate-600 leading-relaxed">
+                            <strong>PERAKUAN PEMOHON/WARIS:</strong> Saya mengaku bahawa semua maklumat yang diberikan adalah benar dan betul. Sekiranya maklumat didapati palsu, pihak sekolah berhak membatalkan permohonan ini. <span class="text-rose-500">*</span>
+                        </span>
+                    </label>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="pt-2">
+                    <button type="submit" class="w-full bg-gradient-to-r from-emerald-800 to-emerald-700 hover:from-emerald-900 hover:to-emerald-800 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2 group">
+                        <i data-lucide="send" class="w-5 h-5 text-gold-400 group-hover:translate-x-1 transition-transform"></i>
+                        <span>Hantar Permohonan</span>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+        <!-- Success Confirmation & Printable Slip (Hidden by default) -->
+        <div id="receiptSection" class="hidden bg-white rounded-2xl shadow-xl border border-slate-200 p-6 sm:p-10">
+            
+            <!-- Success Banner -->
+            <div class="text-center pb-6 border-b border-slate-200 no-print">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-700 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <i data-lucide="check-circle" class="w-10 h-10"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-emerald-900">Permohonan Berjaya Dihantar!</h2>
+                <p class="text-sm text-slate-600 mt-1">Sila muat turun / cetak resit pendaftaran ini sebagai rujukan ujian dan temuduga.</p>
+            </div>
+
+            <!-- Official Receipt Header (Visible on Print) -->
+            <div class="text-center my-6 hidden print:block">
+                <h2 class="font-arabic text-xl text-emerald-800">معهد المشهور الإسلامي</h2>
+                <h1 class="text-2xl font-bold text-slate-900 uppercase">Maahad Al Mashoor Al Islami</h1>
+                <p class="text-xs text-slate-600">SLIP PENGESAHAN PERMOHONAN KEMASUKAN TINGKATAN 1 (2027)</p>
+                <div class="w-full border-b-2 border-slate-800 my-3"></div>
+            </div>
+
+            <!-- Reference Number & Date -->
+            <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 my-6 flex flex-wrap justify-between items-center text-xs sm:text-sm gap-2">
+                <div>
+                    <span class="text-slate-500 block">No. Rujukan Permohonan:</span>
+                    <strong id="refNo" class="text-emerald-800 text-base font-mono">MMI-2027-0000</strong>
+                </div>
+                <div class="text-right">
+                    <span class="text-slate-500 block">Tarikh Hantar:</span>
+                    <strong id="submissionDate" class="text-slate-800">01 Nov 2026</strong>
+                </div>
+            </div>
+
+            <!-- Detail Summary Table -->
+            <div class="space-y-4 text-sm">
+                <h3 class="font-bold text-emerald-900 border-b pb-1">Maklumat Permohonan Pelajar</h3>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <span class="text-xs text-slate-500 block">Nama Pelajar</span>
+                        <span id="resNama" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 block">No. Kad Pengenalan</span>
+                        <span id="resIc" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 block">Jantina</span>
+                        <span id="resJantina" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 block">Sekolah Terkini</span>
+                        <span id="resSekolah" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <span class="text-xs text-slate-500 block">Alamat Kediaman</span>
+                        <span id="resAlamat" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 block">No. Telefon Bapa</span>
+                        <span id="resTelBapa" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 block">No. Telefon Ibu</span>
+                        <span id="resTelIbu" class="font-semibold text-slate-800"></span>
+                    </div>
+                    <div>
+                        <span class="text-xs text-slate-500 block">Status Dokumen PBD</span>
+                        <span id="resPbd" class="font-semibold text-emerald-700 flex items-center gap-1">
+                            <i data-lucide="check-check" class="w-4 h-4"></i> Dimuat Naik
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Interview & Exam Info Box -->
+                <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 mt-6">
+                    <h4 class="font-bold text-amber-900 text-sm flex items-center gap-2 mb-2">
+                        <i data-lucide="calendar" class="w-4 h-4"></i> Maklumat Pendaftaran Ujian & Temuduga
+                    </h4>
+                    <ul class="text-xs sm:text-sm text-amber-950 space-y-1.5">
+                        <li>• <strong>Tarikh Temuduga:</strong> 14 November 2026 (Sabtu)</li>
+                        <li>• <strong>Ujian Bertulis:</strong> Bahasa Arab, Bahasa Inggeris, Matematik & Jawi</li>
+                        <li>• <strong>Ujian Lisan:</strong> Bacaan Al-Quran & Hafazan (Surah Ad-Dhuha hingga An-Nas)</li>
+                        <li>• <strong>Bayaran Wang Proses:</strong> RM10.00 (Dikutip semasa hari pendaftaran ujian)</li>
+                    </ul>
+                </div>
+
+                <!-- WhatsApp Link Card in Receipt -->
+                <div class="bg-emerald-900 text-white rounded-xl p-4 my-4 flex flex-col sm:flex-row items-center justify-between gap-4 no-print">
+                    <div class="flex items-center gap-3">
+                        <div class="p-2.5 bg-emerald-800 rounded-xl text-gold-400">
+                            <i data-lucide="message-circle" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-sm">Waris Wajib Sertai Group WhatsApp</h5>
+                            <p class="text-xs text-emerald-200">Dapatkan jadual penuh & maklumat bilik temuduga.</p>
+                        </div>
+                    </div>
+                    <a href="https://chat.whatsapp.com/HFMkSpvFq8g2rPEO6XzLwT" target="_blank" class="w-full sm:w-auto text-center bg-gold-500 hover:bg-gold-600 text-slate-950 font-bold px-4 py-2 rounded-lg text-xs transition">
+                        Sertai Whatsapp Sekarang
+                    </a>
+                </div>
+
+                <!-- Print Note -->
+                <div class="pt-4 text-xs text-slate-500 italic border-t">
+                    * Sila bawa slip pengesahan ini bersama salinan Kad Pengenalan dan Keputusan PBD semasa pendaftaran temuduga pada 14 November 2026.
+                </div>
+            </div>
+
+            <!-- Print / Reset Action Buttons -->
+            <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-end no-print">
+                <button onclick="window.print()" class="bg-emerald-800 hover:bg-emerald-900 text-white font-bold py-2.5 px-5 rounded-xl text-sm flex items-center justify-center gap-2 transition">
+                    <i data-lucide="printer" class="w-4 h-4"></i> Cetak / Muat Turun Slip
+                </button>
+                <button onclick="resetForm()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-2.5 px-5 rounded-xl text-sm transition">
+                    Isi Permohonan Baharu
+                </button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-emerald-950 text-emerald-400 py-6 border-t border-emerald-800 text-center text-xs no-print">
+        <div class="max-w-5xl mx-auto px-4">
+            <p>© 2026 Maahad Al Mashoor Al Islami. Hak Cipta Terelihara.</p>
+            <p class="text-emerald-600 mt-1">Sistem Permohonan Kemasukan Tingkatan 1 Tahun 2027</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Selected File Holder
+        let uploadedFile = null;
+
+        // IC Validation: Check if born in 2014 (starts with "14")
+        function validateIcYear(input) {
+            const value = input.value.replace(/[^0-9]/g, ''); // strip non-numeric
+            input.value = value;
+
+            const icError = document.getElementById('icError');
+            
+            if (value.length >= 2) {
+                if (!value.startsWith('14')) {
+                    icError.textContent = 'Ralat: Kelahiran mestilah pada tahun 2014 sahaja (No IC bermula dengan "14").';
+                    icError.classList.remove('hidden');
+                    input.classList.add('border-rose-500');
+                } else {
+                    icError.classList.add('hidden');
+                    input.classList.remove('border-rose-500');
+                }
+            } else {
+                icError.classList.add('hidden');
+                input.classList.remove('border-rose-500');
+            }
+        }
+
+        // Handle File Upload UI
+        function handleFileSelect(input) {
+            if (input.files && input.files[0]) {
+                uploadedFile = input.files[0];
+                document.getElementById('uploadContent').classList.add('hidden');
+                document.getElementById('fileSelectedInfo').classList.remove('hidden');
+                document.getElementById('fileName').textContent = uploadedFile.name;
+            }
+        }
+
+        function removeFile() {
+            uploadedFile = null;
+            document.getElementById('pbdFile').value = '';
+            document.getElementById('uploadContent').classList.remove('hidden');
+            document.getElementById('fileSelectedInfo').classList.add('hidden');
+        }
+
+        // Form Submission Logic
+        function handleFormSubmit(e) {
+            e.preventDefault();
+
+            const noIc = document.getElementById('noIc').value;
+            const errorAlert = document.getElementById('errorAlert');
+            const errorMessage = document.getElementById('errorMessage');
+
+            // Final IC Check
+            if (!noIc.startsWith('14') || noIc.length < 12) {
+                errorMessage.textContent = 'Sila pastikan No. Kad Pengenalan sah dan calon dilahirkan pada tahun 2014.';
+                errorAlert.classList.remove('hidden');
+                window.scrollTo({ top: errorAlert.offsetTop - 100, behavior: 'smooth' });
+                return;
+            }
+
+            // File Check
+            if (!uploadedFile) {
+                errorMessage.textContent = 'Sila muat naik fail Keputusan PBD pelajar.';
+                errorAlert.classList.remove('hidden');
+                return;
+            }
+
+            errorAlert.classList.add('hidden');
+
+            // Populate Receipt Data
+            document.getElementById('resNama').textContent = document.getElementById('namaPelajar').value.toUpperCase();
+            document.getElementById('resIc').textContent = noIc;
+            document.getElementById('resJantina').textContent = document.getElementById('jantina').value;
+            document.getElementById('resSekolah').textContent = document.getElementById('sekolahTerkini').value.toUpperCase();
+            document.getElementById('resAlamat').textContent = document.getElementById('alamatTerkini').value.toUpperCase();
+            document.getElementById('resTelBapa').textContent = document.getElementById('noTelBapa').value;
+            document.getElementById('resTelIbu').textContent = document.getElementById('noTelIbu').value;
+            
+            // Random Ref Code
+            const randomNum = Math.floor(1000 + Math.random() * 9000);
+            document.getElementById('refNo').textContent = `MMI-2027-${randomNum}`;
+            
+            // Date Today
+            const today = new Date();
+            const dateStr = today.toLocaleDateString('ms-MY', { day: '2-digit', month: 'short', year: 'numeric' });
+            document.getElementById('submissionDate').textContent = dateStr;
+
+            // Display Receipt
+            document.getElementById('infoSection').classList.add('hidden');
+            document.getElementById('formCard').classList.add('hidden');
+            document.getElementById('receiptSection').classList.remove('hidden');
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Reset Form to fill again
+        function resetForm() {
+            document.getElementById('applicationForm').reset();
+            removeFile();
+            document.getElementById('receiptSection').classList.add('hidden');
+            document.getElementById('infoSection').classList.remove('hidden');
+            document.getElementById('formCard').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
